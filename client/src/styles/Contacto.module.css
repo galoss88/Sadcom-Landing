@@ -1,0 +1,30 @@
+.Contacto {
+    background-color: #F5F5F5; 
+    height: 100%;
+}
+
+.FirstBlock {
+    color: black;
+    padding: 5vh 4vw 5vh 3vw;
+    width: 47vw;
+}
+
+.FirstBlock hr {
+    height: 6px;
+    width: 20%;
+    border-top: 6px solid #8A16C1;
+    opacity: 100;
+}
+
+.ThirdBlock {
+    color: black;
+    padding: 10vh 4vw 5vh 3vw;
+    width: 47vw;
+}
+
+.ThirdBlock hr {
+    height: 6px;
+    width: 20%;
+    border-top: 6px solid #8A16C1;
+    opacity: 100;
+}

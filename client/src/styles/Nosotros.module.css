@@ -1,0 +1,71 @@
+.Nosotros {
+    background-color: #F5F5F5; 
+    height: 100%;
+}
+
+.HolaSoyUnDiv {
+    display: flex;
+}
+
+.FirstBlock {
+    color: black;
+    padding: 5vh 4vw 5vh 6vw;
+    width: 47vw;
+}
+
+.FirstBlock hr {
+    height: 6px;
+    width: 10%;
+    border-top: 6px solid #8A16C1;
+    opacity: 100;
+}
+
+.SecondBlock {
+    text-align: end;
+    color: black;
+    padding: 5vh 2vw 5vh 2vw;
+    width: 47vw;
+}
+
+.SecondBlock hr {
+    height: 6px;
+    width: 10%;
+    border-top: 6px solid #8A16C1;
+    opacity: 100;
+    margin-left: 39vw;
+}
+
+.ThirdBlock {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.ThirdBlock hr {
+    height: 6px;
+    width: 13%;
+    border-top: 6px solid #8A16C1;
+    opacity: 100;
+    margin-left: 43vw;
+}
+
+
+.ThirdDescription {
+    display: flex;
+}
+
+.ThirdDescription img {
+    margin: 4vh 3vw 0 3vw;
+}
+
+.ThirdDescription p {
+    width: 65vw;
+    margin: 4vh 0 2vh 0;
+}
+
+.SoyUnDiv div {
+    margin: 2vh 0 2vh 0;
+}
+
+.SoyUnDiv p {
+    margin: 0;
+} 

@@ -1,0 +1,181 @@
+.FirstBlock {
+    background-color: #1B1448;
+    height: 92vh;
+    color: white;
+    display: flex;
+}
+
+.FirstDescription {
+    width: 40vw;
+    margin: 20vh 3vw 0 7vw;
+}
+
+.FirstDescription h1 {
+    font-size: 4.5em;
+}
+
+.FirstDescription h2 {
+    color: #c953ff;
+    text-shadow: -4px 4px #060531;
+}
+
+.FirstDescription h2 :hover {
+    color: #640e8b;
+}
+
+.FirstDescription div {
+    width: 30vw;
+    /* background-color: #c704bd; */
+}
+
+.FirstVideo {
+    margin: 20vh 7vw 0 3vw;
+    
+}
+
+.FirstVideo iframe {
+    width: 560px;
+}
+
+.SecondBlock {
+    background-color: #F5F5F5; 
+    height: 100vh;
+    
+}
+
+.TitleBlock {
+    padding: 10vh 0 5vh 10vw;
+    color: black;
+}
+
+.TitleBlock h2 {
+    font-size: 2.5em;
+}
+
+.TitleBlock hr {
+    height: 6px;
+    width: 10%;
+    border-top: 6px solid #682AB7;
+    opacity: 100;
+}
+
+.ContainerCard {
+    display: flex;
+    margin-left: 27vw;
+}
+
+.ThirdBlock {
+    background-color: #F5F5F5; 
+    height: 100vh;
+}
+
+.Coso {
+    height: 100vh;
+    width: 20vw;
+    background-color: #060531;
+    position: absolute;
+}
+
+.DetailContainer {
+    width: 30vw;
+    padding: 30vh 0vw 0 60vw;
+    margin: 0;
+    
+}
+.DetailContainer p {
+    width: 30vw;
+}
+
+.Imag {
+    position: absolute;
+    margin: 18vh 0 0 18vw;
+}
+
+.ForthBlock {
+    background-color: #F5F5F5; 
+    height: 102vh;
+    position: relative;
+}
+
+.ForthBlock h4 {
+    text-align: center;
+    padding-top: 5vh;
+    position: relative;
+}
+
+.Coso2 {
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    background-color: #682AB7;
+    margin-top: 5vh;
+}
+
+.ContainerCardsTeam {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FifthBlock {
+    height: 100%;
+    background-color: #F5F5F5; 
+}
+
+.FifthBlock h4 {
+    padding-top: 25vh;
+    text-align: center;
+}
+
+.FifthDescription {
+    display: flex;
+}
+
+.FifthDescription img {
+    margin: 4vh 3vw 0 3vw;
+}
+
+.FifthDescription p {
+    width: 65vw;
+    margin: 4vh 0 2vh 0;
+}
+
+.SoyUnDiv {
+    margin: 1vh 0 0 2vw;
+}
+
+.SoyUnDiv p {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px){
+    .FirstBlock {
+        display: block;
+        height: 100%;
+        width: 100vw;
+    }
+    .FirstDescription {
+        margin: 0 3vw 0 5vw;
+        padding: 5vh 0 0 0;
+        width: 85vw;
+        text-align: justify;
+    }
+    .FirstVideo {
+        margin: 5vh 2vw 0 3vw;
+        padding: 0 0 5vh 2vw;
+    }
+    .FirstVideo iframe {
+        height: 200px;
+        width: 90vw;
+    }
+    .TitleBlock {
+        padding: 5vh 0 5vh 10vw;
+    }
+    .ContainerCard {
+        display: block;
+        margin-left: 20vw;
+    }
+    .ThirdBlock img {
+        width: 70vw;
+    }
+}
+

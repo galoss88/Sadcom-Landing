@@ -1,0 +1,25 @@
+.Soluciones {
+    background-color: #F5F5F5; 
+    height: 100%;
+}
+
+.FirstBlock {
+    color: black;
+    padding: 5vh 0 5vh 2vw;
+}
+
+.FirstBlock hr {
+    height: 6px;
+    width: 10%;
+    border-top: 6px solid #8A16C1;
+    opacity: 100;
+}
+
+.SecondBlock {
+    width: 80vw;
+}
+
+.ThirdBlock {
+    display: flex;
+    padding: 10vh 0 10vh 16vw;
+}
