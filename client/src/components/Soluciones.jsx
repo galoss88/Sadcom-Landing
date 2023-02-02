@@ -12,7 +12,7 @@ export default function Soluciones() {
             </div>
 
             <div className={style.SecondBlock}>
-                <Table striped bordered hover style={{width: '80vw', 'margin-left': '10vw', "border-radius": "10px", }}>
+                <Table responsive striped bordered hover style={{width: '80vw', "border-radius": "10px", }}>
                     <thead style={{height: '10vh'}}>
                         <tr className="text-center" style={{'background-color': '#682AB7', 'color': 'white', "border-radius": "10px"}}> 
                             <th style={{"padding-bottom": '2vh', 'font-size': '1.5rem'}}>Características</th>
@@ -96,7 +96,7 @@ export default function Soluciones() {
             </div>
 
             <div className={style.ThirdBlock}>
-                <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #535353', "margin-right": '5vw', "border-radius": "10px"}} className="text-center">
+                <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #535353', "margin-right": '5vw', "margin-bottom": "5vh", "border-radius": "10px"}} className="text-center">
                     <Card.Header style={{ "background-color": '#682AB7',  "color": "white", "font-size": '1.3em', "border-top-left-radius": "10px", "border-top-right-radius": "10px", height: '60px', "padding-top": "15px"  }}><b>Versión gratuita</b></Card.Header>
                     <Card.Body>
                         <Card.Text>
@@ -111,7 +111,7 @@ export default function Soluciones() {
                         <Button style={{ "background-color": '#682AB7', "color": "white", "border-color": "#682AB7" }}><b>Obtener</b></Button>
                     </Card.Body>
                 </Card>
-                <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #535353', "margin-right": '5vw', "border-radius": "10px"}} className="text-center">
+                <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #535353', "margin-right": '5vw', "margin-bottom": "5vh", "border-radius": "10px"}} className="text-center">
                     <Card.Header style={{ "background-color": '#682AB7',  "color": "white", "font-size": '1.3em', "border-top-left-radius": "10px", "border-top-right-radius": "10px", height: '60px', "padding-top": "15px"  }}><b>Versión de pago</b></Card.Header>
                     <Card.Body>
                         <Card.Text>
@@ -123,7 +123,7 @@ export default function Soluciones() {
                         <Button style={{ "background-color": '#682AB7', "color": "white", "border-color": "#682AB7", 'margin-top': '20px' }}><b>Obtener</b></Button>
                     </Card.Body>
                 </Card>
-                <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #535353', "margin-right": '5vw', "border-radius": "10px"}} className="text-center">
+                <Card  style={{ width: '16rem', "box-shadow": '4px 4px 10px #535353', "margin-right": '5vw', "margin-bottom": "5vh", "border-radius": "10px"}} className="text-center">
                     <Card.Header style={{ "background-color": '#682AB7',  "color": "white", "font-size": '1.3em', "border-top-left-radius": "10px", "border-top-right-radius": "10px", height: '60px', "padding-top": "15px"  }}><b>Versión de pago</b></Card.Header>
                     <Card.Body>
                         <Card.Text>

@@ -75,7 +75,7 @@ export default function Home() {
                     <img className={style.Imag} src={image} alt="blackCode" width="400px"></img>
                     <div className={style.DetailContainer}>
                         <h3>Acerca de</h3>
-                        <p>No busques más, nuestra versión gratuita tiene lo justo para que comiences a administrar tu negocio, a medida que vayas creciendo y necesites más funcionalidades, paga únicamente por lo que necesitas.</p>
+                        <p>Nuestra versión gratuita tiene lo que necesitás para comenzar a administrar tu negocio. A medida que vayas creciendo y necesites más funcionalidades, pagá únicamente por las que requieras.</p>
                         <p>Tenemos un sistema con base de datos en la nube, para que puedas modificar desde cualquier dispositivo. Además vas a poder consultar reportes de ventas y cierres de cajas. También podrás descargar los comprobantes en pdf para enviarlos por WhatsApp.</p>
                     </div>
                 </div>
@@ -84,38 +84,38 @@ export default function Home() {
            <div className={style.ForthBlock}>
                 <h4><b>¡Conoce a nuestro equipo!</b></h4>
                 <div className={style.ContainerCardsTeam}>
-                    <Card style={{ width: '16rem', height: "25rem", "margin-left": '10vw', "margin-top": "8vh" }}>
+                    <Card style={{ width: '16rem', height: "25rem", "margin-left": '11vw', "margin-top": "8vh"  }}>
                         <Card.Img variant="top" src={image2}/>
                         <Card.Body>
-                            <Card.Title>Nombre y Apellido</Card.Title>
-                            <Card.Text><i>Rol en Sadcom</i></Card.Text>
-                            <Card.Text>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate beatae consectetur doloribus ea eveniet deleniti dignissimos?</Card.Text>
+                            <Card.Title>Mario Olivares</Card.Title>
+                            <Card.Text><i>Desktop developer, administrador de base de datos en SQL Server</i></Card.Text>
+                            <Card.Text>Analista en sistemas de información, reparador de equipos electrónicos.</Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '16rem', height: "25rem", "margin-left": '10vw', "margin-top": "8vh"  }}>
+                    <Card style={{ width: '16rem', height: "25rem", "margin-left": '11vw', "margin-top": "8vh" }}>
                         <Card.Img variant="top" src={image2}/>
                         <Card.Body>
-                            <Card.Title>Nombre y Apellido</Card.Title>
-                            <Card.Text><i>Rol en Sadcom</i></Card.Text>
-                            <Card.Text>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate beatae consectetur doloribus ea eveniet deleniti dignissimos?</Card.Text>
+                            <Card.Title>Sebastian Bernachea</Card.Title>
+                            <Card.Text><i>Team líder y desktop developer</i></Card.Text>
+                            <Card.Text>Analista en Sistemas, desarrollador Full Stack y diseñador web.</Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '16rem', height: "25rem", "margin-left": '10vw', "margin-top": "8vh"  }}>
+                    <Card style={{ width: '16rem', height: "25rem", "margin-left": '11vw', "margin-top": "8vh"  }}>
                         <Card.Img variant="top" src={image2}/>
                         <Card.Body>
-                            <Card.Title>Nombre y Apellido</Card.Title>
-                            <Card.Text><i>Rol en Sadcom</i></Card.Text>
-                            <Card.Text>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate beatae consectetur doloribus ea eveniet deleniti dignissimos?</Card.Text>
+                            <Card.Title>Sofia Sawczuk</Card.Title>
+                            <Card.Text><i>Web developer</i></Card.Text>
+                            <Card.Text>Estudiante de ingeniería informática, desarrolladora Full Stack y nómade digital</Card.Text>
                         </Card.Body>
                     </Card>
                 </div>
-                <Link to="/us">
+                <Link to="/us" className={style.Link}>
                     <Button style={{"background-color": '#682AB7',  "color": "white", "margin-left": "47vw", "margin-top": "5vh"}} variant="light">Ver todos</Button>
                 </Link>
                 <div className={style.Coso2}></div>
            </div>
 
-           <div className={style.FifthBlock}>
+           {/* <div className={style.FifthBlock}>
                 <h4><b>Opiniones de nuestros clientes</b></h4>
                 <div>
                     <Card style={{width: "80vw", "margin-left": "10vw", "margin-top": '8vh', height: '35vh'}}>
@@ -158,7 +158,7 @@ export default function Home() {
                         </div>
                     </Card>
                 </div>
-           </div>
+           </div> */}
         </div>
     )
 }

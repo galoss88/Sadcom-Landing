@@ -61,11 +61,35 @@
     width: 65vw;
     margin: 4vh 0 2vh 0;
 }
-
+.SoyUnDiv {
+    width: 60vw;
+}
 .SoyUnDiv div {
     margin: 2vh 0 2vh 0;
 }
 
 .SoyUnDiv p {
     margin: 0;
+    width: 60vw;
 } 
+
+@media screen and (max-width: 600px){
+    .HolaSoyUnDiv {
+        display: block;
+    }
+    .FirstBlock {
+        width: 90vw;
+    }
+    .SecondBlock {
+        width: 90vw;
+    }
+    .ThirdDescription {
+        display: block;
+    }
+    .SoyUnDiv {
+        margin-left: 10vw;
+    }
+    .SecondBlock hr {
+        margin-left: 78vw;
+    }
+}

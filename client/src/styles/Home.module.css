@@ -174,8 +174,35 @@
         display: block;
         margin-left: 20vw;
     }
+    .ThirdBlock {
+        height: 102vh;
+    }
+    .Coso {
+        height: 102vh;
+    }
     .ThirdBlock img {
         width: 70vw;
     }
+    .DetailContainer {
+        padding-left: 25vw;
+        padding-top: 55vh;
+        width: 90vw;
+        text-align: justify;
+        margin-right: 0;
+        position: absolute;
+    }
+    .DetailContainer p {
+        width: 60vw;
+    }
+    .ForthBlock {
+        padding-top: 5vh;
+        height: 120%;
+    }
+    .ContainerCardsTeam {
+        margin-left: 10vw;
+    }
+    .Link{
+        margin-left: 12vw;
+    } 
 }
 

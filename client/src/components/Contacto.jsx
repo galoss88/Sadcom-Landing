@@ -93,7 +93,7 @@ export default function Contacto() {
                 <h2><b>Formulario de contacto</b></h2>
                 <hr></hr>
             </div>
-            <Form style={{ width: '80rem', "margin-left": "2.5rem"}} onSubmit={(e) => handleSubmit(e)}>
+            <Form style={{ width: '90vw', "margin-left": "5vw"}} onSubmit={(e) => handleSubmit(e)}>
                 <Form.Group className="mb-3" >
                     <Form.Control type="string" placeholder="Ingresa tu nombre..." name="name" value={input.name} onChange={(e) => handleChange(e)}/>
                     {errors.name && (
@@ -127,7 +127,7 @@ export default function Contacto() {
                 <h3><b>Preguntas frecuentes</b></h3>
                 <hr></hr>
             </div>
-            <Accordion defaultActiveKey="0" style={{ width: '80rem', "margin-left": "2.5rem"}}>
+            <Accordion defaultActiveKey="0" style={{ width: '90vw', "margin-left": "5vw"}}>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>¿Qué base de datos utiliza el sistema?</Accordion.Header>
                     <Accordion.Body>Utiliza Miscrosoft SQL Server.</Accordion.Body>

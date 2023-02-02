@@ -5,7 +5,7 @@
 
 .FirstBlock {
     color: black;
-    padding: 5vh 0 5vh 2vw;
+    padding: 5vh 0 5vh 5vw;
 }
 
 .FirstBlock hr {
@@ -17,9 +17,17 @@
 
 .SecondBlock {
     width: 80vw;
+    margin-right: 0;
+    margin-left: 10vw;
 }
 
 .ThirdBlock {
     display: flex;
     padding: 10vh 0 10vh 16vw;
+}
+
+@media screen and (max-width: 600px){
+    .ThirdBlock {
+        display: block;
+    }
 }

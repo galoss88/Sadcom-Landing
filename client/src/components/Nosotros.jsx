@@ -22,14 +22,14 @@ export default function Nosotros() {
                 <h2><b>Nuestro team</b></h2>
                 <hr></hr>
 
-                <Card style={{width: "80vw", "margin-left": "10vw", "margin-top": '8vh', height: '35vh'}}>
+                <Card style={{width: "80vw", "margin-left": "10vw", "margin-top": '8vh', /* height: '35vh' */}}>
                         <div >
                             <div className={style.ThirdDescription}>
                                 <img src={image3} style={{width: '6rem', height: '6em'}}></img>  
                                 <div className={style.SoyUnDiv}>
                                     <div>
-                                        <p><b>Persona</b>, ciudad</p>
-                                        <p><i>Rol en Sadcom</i></p>
+                                        <p><b>Sebastian Bernachea</b>, ciudad</p>
+                                        <p><i>Team líder, creador de la interfaz y de la estructura de la DB.</i></p>
                                     </div>
                                     <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis harum amet nobis optio vero? Mollitia necessitatibus dolores debitis rem adipisci fugiat repellendus, qui tempore eveniet sapiente nesciunt quos labore laborum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis harum amet nobis optio vero? Mollitia necessitatibus dolores debitis rem adipisci fugiat repellendus, qui tempore eveniet sapiente nesciunt quos labore laborum!"</p>
                                 </div>
@@ -38,16 +38,51 @@ export default function Nosotros() {
                         </div>
                         <br/>
                 </Card>
-                <Card style={{width: "80vw", "margin-left": "10vw", "margin-top": '8vh', height: '35vh'}}>
+                <Card style={{width: "80vw", "margin-left": "10vw", "margin-top": '8vh', /* height: '35vh' */}}>
                         <div >
                             <div className={style.ThirdDescription}>
                                 <img src={image3} style={{width: '6rem', height: '6em'}}></img>  
                                 <div className={style.SoyUnDiv}>
                                     <div>
-                                        <p><b>Persona</b>, ciudad</p>
-                                        <p><i>Rol en Sadcom</i></p>
+                                        <p><b>Sofia Sawczuk</b>, Mar del Plata, Buenos Aires, Argentina</p>
+                                        <p><i>Web developer</i></p>
                                     </div>
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis harum amet nobis optio vero? Mollitia necessitatibus dolores debitis rem adipisci fugiat repellendus, qui tempore eveniet sapiente nesciunt quos labore laborum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis harum amet nobis optio vero? Mollitia necessitatibus dolores debitis rem adipisci fugiat repellendus, qui tempore eveniet sapiente nesciunt quos labore laborum!"</p>
+                                    <p>Soy estudiante de ingeniería informática y desarrolladora web Full Stack. Tengo experiencia trabajando con API’s, NodeJS, React, Redux, SQL entre otras tecnologías. Estudiar ingeniería me preparó para ser una persona resolutiva, responsable y creativa. Me apasiona viajar y tengo intereses personales en liderazgo y ventas.</p>
+                                    <p><i>Instagram: <a href="https://www.instagram.com/soph_sawczuk/">Soph_Sawczuk</a> LinkedIn: <a href="https://www.linkedin.com/in/sofia-sawczuk/">Sofia Sawczuk</a> Github: <a href="https://github.com/SophSawczuk">SophSawczuk</a></i></p>
+                                </div>
+                            </div>
+                            <Card.Body></Card.Body>
+                        </div>
+                        <br/>
+                </Card>
+                <Card style={{width: "80vw", "margin-left": "10vw", "margin-top": '8vh', /* height: '35vh' */}}>
+                        <div >
+                            <div className={style.ThirdDescription}>
+                                <img src={image3} style={{width: '6rem', height: '6em'}}></img>  
+                                <div className={style.SoyUnDiv}>
+                                    <div>
+                                        <p><b>Mario Olivares</b>, Corrientes, Capital, Argentina</p>
+                                        <p><i>Desktop developer, administrador base de datos en SQL Server</i></p>
+                                    </div>
+                                    <p>Analista en sistemas de información, reparador de equipos electrónicos. Programador en diversos lenguajes como Python, .NET y C#. Habilidades para trabajar en equipo y resolver conflictos.</p>
+                                    <p><i>LinkedIn: <a href="https://www.linkedin.com/in/mario-olivares-b87941238/">Mario Olivares</a></i></p>
+                                </div>
+                            </div>
+                            <Card.Body></Card.Body>
+                        </div>
+                        <br/>
+                </Card>
+                <Card style={{width: "80vw", "margin-left": "10vw", "margin-top": '8vh', /* height: '35vh' */}}>
+                        <div >
+                            <div className={style.ThirdDescription}>
+                                <img src={image3} style={{width: '6rem', height: '6em'}}></img>  
+                                <div className={style.SoyUnDiv}>
+                                    <div>
+                                        <p><b>Nicolas Gallo Garcia</b>, General Pico, La Pampa, Argentina</p>
+                                        <p><i>Web developer</i></p>
+                                    </div>
+                                    <p>Soy desarrollador Full Stack y estoy dando mis primeros pasos en el mundo IT. Las tecnologías con las que he trabajado principalmente son JavaScript, React, Redux, NodeJS, Express, Sequelize, PostgreSQL, styled-components, GitHub, entre otras. Soy una persona responsable, detallista, muy comprometido en lograr mis objetivos y con mucho deseo de crecer tanto personalmente como laboralmente.</p>
+                                    <p><i>LinkedIn: <a href="https://www.linkedin.com/in/nicolas-gallo-garcia-359136236/">Nicolas Gallo Garcia</a> Github: <a href="https://github.com/galoss88">galos88</a></i></p>
                                 </div>
                             </div>
                             <Card.Body></Card.Body>
